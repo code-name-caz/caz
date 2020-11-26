@@ -1,0 +1,10 @@
+{
+   "index": {
+      "fields": [
+         "type",
+         "owner"
+      ]
+   },
+   "name": "type-owner-json-index",
+   "type": "json"
+}

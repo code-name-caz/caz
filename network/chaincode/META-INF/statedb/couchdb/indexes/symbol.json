@@ -1,0 +1,9 @@
+{
+  "index": {
+    "fields": [
+      "symbol"
+    ]
+  },
+  "name": "symbol-json-index",
+  "type": "json"
+}

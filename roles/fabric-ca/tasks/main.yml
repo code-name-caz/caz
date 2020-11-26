@@ -1,0 +1,29 @@
+---
+- name: Set root path
+  set_fact:
+    root_path: "{{ ansible_env.PWD }}"
+
+- name: Clean
+  become: true
+  file:
+    path: "{{ root_path }}/{{ ca.path }}"
+    state: absent
+
+- name: Create organization directory
+  file:
+    path: "{{ root_path }}/{{ ca.path }}"
+    state: directory
+
+- name: Create ca config file
+  template:
+    src: "{{ playbook_dir }}/roles/fabric-ca/templates/fabric-ca-server-config.yml.j2"
+    dest: "{{ root_path }}/{{ ca.path }}/fabric-ca-server-config.yaml"
+
+- name: Create ca docker compose file
+  template:
+    src: "{{ playbook_dir }}/roles/fabric-ca/templates/docker-compose-ca.yml.j2"
+    dest: "docker-compose.yml"
+
+- name: Start Fabric CA
+  command:
+    cmd: "docker-compose up -d"

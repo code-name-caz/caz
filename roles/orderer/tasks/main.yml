@@ -1,0 +1,8 @@
+- name: Set root path
+  set_fact:
+    root_path: "{{ ansible_env.PWD }}"
+
+- name: Create docker compose file
+  template:
+    src: "{{ playbook_dir }}/roles/orderer/templates/docker-compose.yml.j2"
+    dest: "docker-compose.yml"

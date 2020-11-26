@@ -1,0 +1,1 @@
+{"version":3,"file":"tokenMinedError.js","sourceRoot":"","sources":["../../src/errors/tokenMinedError.ts"],"names":[],"mappings":";;;AAAA,4CAA+C;AAC/C,4CAA6C;AAE7C,MAAa,eAAgB,SAAQ,KAAK;IACxC;QACE,MAAM,QAAQ,GAAG,IAAI,2BAAe,CAClC,yBAAa,CAAC,eAAe,EAC7B,qBAAqB,CACtB,CAAC;QAEF,KAAK,CAAC,QAAQ,CAAC,MAAM,EAAE,CAAC,CAAC;IAC3B,CAAC;CACF;AATD,0CASC"}

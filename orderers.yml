@@ -1,0 +1,10 @@
+---
+- hosts: orderers
+  vars_files:
+    - vars_files/versions.yml
+  roles:
+    - name: docker
+      become: true
+      vars:
+        docker_group: docker
+    - name: orderer

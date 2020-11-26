@@ -1,0 +1,5 @@
+ca:
+  name: ca-main
+  username: client
+  secret: password123!
+  path: fabric-ca

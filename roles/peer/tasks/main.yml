@@ -1,0 +1,10 @@
+---
+- name: Create docker compose file
+  template:
+    src: "{{ playbook_dir }}/roles/peer/templates/docker-compose.yml.j2"
+    dest: "docker-compose.yml"
+
+- name: Create peer config file
+  template:
+    src: "{{ playbook_dir }}/roles/peer/templates/core.yaml.j2"
+    dest: "core.yaml"

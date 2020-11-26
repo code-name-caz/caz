@@ -1,0 +1,1 @@
+{"version":3,"file":"invalidReceiverError.js","sourceRoot":"","sources":["../../src/errors/invalidReceiverError.ts"],"names":[],"mappings":";;;AAAA,4CAA+C;AAC/C,4CAA6C;AAE7C,MAAa,oBAAqB,SAAQ,KAAK;IAC7C;QACE,MAAM,QAAQ,GAAG,IAAI,2BAAe,CAClC,yBAAa,CAAC,oBAAoB,EAClC,8CAA8C,CAC/C,CAAC;QAEF,KAAK,CAAC,QAAQ,CAAC,MAAM,EAAE,CAAC,CAAC;IAC3B,CAAC;CACF;AATD,oDASC"}

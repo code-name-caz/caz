@@ -1,0 +1,1 @@
+{"version":3,"file":"balanceResponse.js","sourceRoot":"","sources":["../../../src/src/responses/balanceResponse.ts"],"names":[],"mappings":";;;AACA,uDAAoD;AAEpD,MAAa,eAAgB,SAAQ,iCAAe;IAClD,YAAY,MAAc,EAAE,OAAkB;QAC5C,KAAK,CAAC;YACJ,MAAM;YACN,OAAO,EAAE,OAAO,CAAC,QAAQ,EAAE;SAC5B,CAAC,CAAC;IACL,CAAC;CACF;AAPD,0CAOC"}
